@@ -44,7 +44,7 @@ function loadMore() {
         </div>
       </div>
 
-        <div class="mt-5 text-center" v-if="products.value > 0">
+        <div class="mt-5 text-center">
             <button @click="loadMore()" class="btn btn-outline-primary">Load More</button>
         </div>
     </div>
