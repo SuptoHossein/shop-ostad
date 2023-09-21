@@ -1,4 +1,5 @@
 <script setup>
+const date = new Date().getFullYear()
 </script>
 
 <template>
@@ -7,7 +8,7 @@
       <header class="mb-5 border-bottom">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <router-link class="navbar-brand" to="/">ShopM</router-link>
+            <router-link class="navbar-brand" to="/">Shop-M</router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -41,7 +42,7 @@
                   <use xlink:href="#bootstrap"></use>
                 </svg>
               </a>
-              <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+              <span class="mb-3 mb-md-0 text-body-secondary">© {{ date }} Company, Inc</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
